@@ -50,7 +50,6 @@ streamlit.dataframe(my_data_rows)
 
 streamlit.text("What fruit would you like to add?")
 # Let's put a pick list here so they can pick the fruit they want to include 
-fruits_selected = streamlit.multiselect("Pick some fruits:", my_data_rows,[])
-fruits_to_show = my_fruit_list.loc[fruits_selected]
+streamlit.write("",text_input)
 
-streamlit.dataframe(fruits_to_show)
+streamlit.dataframe(text_input)
