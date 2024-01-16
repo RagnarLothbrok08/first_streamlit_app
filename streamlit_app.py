@@ -53,3 +53,5 @@ text_input = st.text_input("Enter some text 👇")
 
 if text_input:
     st.write("Thanks for adding : ", text_input)
+
+my_cur.execute("insert into fruit_load_list values ('kamote from streamlit')")
