@@ -51,3 +51,5 @@ streamlit.dataframe(my_data_rows)
 streamlit.text("What fruit would you like to add?")
 text_input = st.text_input("Enter some text 👇")
 
+if text_input:
+    st.write("You entered: ", text_input)
