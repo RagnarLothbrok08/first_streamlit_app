@@ -49,10 +49,9 @@ streamlit.dataframe(my_data_rows)
 
 
 streamlit.text("What fruit would you like to add?")
-text_input = st.text_input(
-    "Enter some text 👇",
+text_input = st.text_input("Enter some text 👇",
     label_visibility=st.session_state.visibility,
     disabled=st.session_state.disabled,
-    placeholder=st.session_state.placeholder,
+    placeholder=st.session_state.placeholder
 )
 
